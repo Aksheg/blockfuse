@@ -19,6 +19,7 @@ function reverseStringWithLoop(str) {
     return arr.join('');
 }
 
+
 // Test cases covering various edge cases
 console.log(reverseStringWithLoop('hello') === 'olleh');           
 console.log(reverseStringWithLoop('') === '');                  

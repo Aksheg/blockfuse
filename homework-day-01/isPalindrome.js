@@ -24,6 +24,8 @@ function isPalindrome(str) {
     return true;
 }
 
+
+// Test cases covering various edge cases
 console.log(isPalindrome("racecar"));
 console.log(isPalindrome("hello"));
 console.log(isPalindrome("A man, a plan, a canal: Panama"));
