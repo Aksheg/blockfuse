@@ -17,21 +17,21 @@ function searchWithCustomMethod(arr, item) {
 }
 
 
-// // Performance Measurement
-// function measurePerformance(arr, item, repetitions = 10000) {
-//     console.time('Built-in Method');
-//     for (let i = 0; i < repetitions; i++) {
-//         searchWithBuiltInMethod(arr, item);
-//     }
-//     console.timeEnd('Built-in Method');
+// Performance Measurement
+function measurePerformance(arr, item, repetitions = 10000) {
+    console.time('Built-in Method');
+    for (let i = 0; i < repetitions; i++) {
+        searchWithBuiltInMethod(arr, item);
+    }
+    console.timeEnd('Built-in Method');
 
 
-//     console.time('Custom Method');
-//     for (let i = 0; i < repetitions; i++) {
-//         searchWithCustomMethod(arr, item);
-//     }
-//     console.timeEnd('Custom Method');
-// }
+    console.time('Custom Method');
+    for (let i = 0; i < repetitions; i++) {
+        searchWithCustomMethod(arr, item);
+    }
+    console.timeEnd('Custom Method');
+}
 
 
 // Test Arrays
