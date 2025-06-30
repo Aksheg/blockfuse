@@ -17,7 +17,6 @@ function searchWithCustomMethod(arr, item) {
 }
 
 
-
 // // Performance Measurement
 // function measurePerformance(arr, item, repetitions = 10000) {
 //     console.time('Built-in Method');
